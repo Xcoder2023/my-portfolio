@@ -27,10 +27,7 @@ const Home = () => {
   return (
     <>
       <div className=" bg-[url('/src/components/assets/software-developer.jpg')] bg-center bg-cover w-full h-[100vh] bg-no-repeat hidden lg:block">
-        <div className=" flex justify-between text-slate-50 p-5 items-center">
-          <div className=" font-black bg-black p-5 rounded-full text-[20px]">
-            <p>XCODER</p>
-          </div >
+        <div className=" flex justify-center text-slate-50 p-5 items-center">
           <ul className="set flex gap-5 bg-blue-700 p-7 -mt-10 cursor-pointer">
             <li
               className=" text-green-300 hover:underline hover:text-yellow-500 text-[30px] font-extrabold"
@@ -54,14 +51,6 @@ const Home = () => {
               Projects
             </li>
           </ul>
-          <div className=" flex gap-10 bg-black p-5 rounded-3xl">
-            <div className=" ">
-              <CiSearch />{" "}
-            </div>
-            <div>
-              <GiHamburgerMenu />
-            </div>
-          </div>
         </div>
         <div className=" flex justify-between items-center pr-12 pt-[120px]">
           <div className=" ml-10 flex justify-center items-center text-[30px] font-serif">
@@ -117,7 +106,7 @@ const Home = () => {
         </div>
         <div className={swipe ? "project active" : "project"}>
           <TiDeleteOutline
-            className=" absolute left-[330px] top-[40px] bg-[purple]  text-[white] z-10"
+            className=" absolute left-[650px] top-[20px] bg-[purple]  text-[white] z-10"
             onClick={handleSwiped}
           />
           <Projects />

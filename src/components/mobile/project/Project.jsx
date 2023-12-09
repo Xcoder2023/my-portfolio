@@ -16,7 +16,7 @@ const Project = () => {
         <div className=" flex flex-col justify-center items-center gap-2 p-5 overflow-hidden">
           <div
             data-aos="fade-down"
-            className=" text-[50px] font-serif font-bold overflow-hidden"
+            className=" text-[25px] font-serif font-bold overflow-hidden"
           >
             <p>Projects</p>
           </div>
@@ -100,7 +100,7 @@ const Project = () => {
                 type="text"
                 placeholder="Dog Breed Name"
                 readOnly
-                className=" flex p- bg-transparent border-2 placeholder:text-green-500 placeholder:text-center"
+                className=" flex p- bg-transparent border-2 placeholder:text-black placeholder:text-center"
               />
             </div>
             <div

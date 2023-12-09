@@ -2,10 +2,10 @@ import React from "react";
 import { PiGithubLogoLight } from "react-icons/pi";
 import { MdLink } from "react-icons/md";
 
+
 const Projects = () => {
   return (
     <>
-      <div className=" flex flex-col justify-center items-center gap-2 p-5">
         <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2">
           <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/michHome.png')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center"></div>
           <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-3">
@@ -64,7 +64,7 @@ const Projects = () => {
 
         <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2">
           <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/images.jpeg')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center">
-              <input type="text" placeholder="Dog Breed Name" readOnly className=" flex p- bg-transparent border-2 placeholder:text-green-500 placeholder:text-center"/>
+              <input type="text" placeholder="Choose a dog breed " readOnly className=" flex p- bg-transparent border-2 placeholder:text-black placeholder:text-center"/>
           </div>
           <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-3">
             <p className=" text-[20px]">Infinite Dog App</p>
@@ -89,7 +89,6 @@ const Projects = () => {
               </p>
           </div>
         </div>
-      </div>
     </>
   );
 };

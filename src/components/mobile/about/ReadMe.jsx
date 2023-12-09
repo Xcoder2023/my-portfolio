@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import mathy from "../../assets/about/mathy.jpg";
-import CV from "../../assets/documents/MATHIAS.pdf"
 
 const ReadMe = () => {
   const [read, setRead] = useState(false);
@@ -21,10 +20,10 @@ const ReadMe = () => {
   }, []);
   return (
     <>
-      <div className=" flex flex-col justify-center items-center my-10 overflow-hidden">
+      <div className=" flex flex-col justify-center items-center my-3 overflow-hidden">
         <div
           data-aos="fade-up"
-          className=" flex justify-center font-serif text-[50px] overflow-hidden"
+          className=" flex justify-center font-serif text-[25px] font-bold overflow-hidden"
         >
           <p>About</p>
         </div>
@@ -32,7 +31,7 @@ const ReadMe = () => {
           data-aos="fade-left"
           className=" flex flex-col items-center justify-center gap-5 bg-[black] text-[white p-5 border-2 overflow-hidden"
         >
-          <div className=" text-white font-black hover:bg-[blue] flex justify-center text-center text-[20px]">
+          <div className=" text-white font-black hover:bg-[blue] flex justify-center text-center">
             <p>
               Hey!{" "}
               <span className=" text-yellow-300 font-black">
@@ -45,7 +44,7 @@ const ReadMe = () => {
             <img src={mathy} alt="" className=" rounded-full w-32" />
           </div>
           <div className=" flex">
-            <div className=" flex justify-center text-start font-sans leading-7 font-black text-[rgb(207,223,255)] text-[18px]">
+            <div className=" flex justify-center text-start font-sans leading-7 text-[white] text-[18px]">
               <p>
                 {" "}
                 with one year experience working with javascript, react,
@@ -80,17 +79,6 @@ const ReadMe = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div data-aos="fade-right" className=" flex justify-center font-serif text-[40px] text-[blue] hover:underline hover:text-[green] pt-5">
-          <button>
-            {" "}
-            <a
-            href={CV}
-              target="" download='MATHIAS-CV.pdf'
-            >
-              CV
-            </a>
-          </button>
         </div>
       </div>
     </>

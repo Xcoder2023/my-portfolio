@@ -15,13 +15,13 @@ const Skill = () => {
   return (
     <>
       <div className=' flex flex-col items-center mb-10 overflow-hidden'>
-        <div data-aos='fade-up' className=' text-[50px] font-bold'><p> Skills</p></div>
+        <div className=' text-[50px] font-bold'><p> Skills</p></div>
           <fieldset className=" border-4 pb-5 pt-5">
             <legend className=" flex text-center font-extrabold text-[50px] font-serif social"><span className="legend-txt">My Web Tools</span></legend>
             <div className=" grid grid-cols-2 gap-5 items-center ">
 
               <div data-aos='fade-left' className=" flex items-center justify-center overflow-hidden">
-                <img src={htmld} alt="" className="  w-40" />
+                <img src={htmld} alt="" className="  w-32" />
               </div>
 
               <div data-aos='fade-right' className=" flex items-center justify-center mb-7 overflow-hidden">
@@ -29,15 +29,15 @@ const Skill = () => {
               </div>
 
               <div className=" flex items-center justify-center overflow-hidden">
-                <img src={csslogo} alt="" className=" logos w-28" />
+                <img src={csslogo} alt="" className=" logos w-24" />
               </div>
               <div className=" flex items-center justify-center object-contain overflow-hidden">
-                <img src={js} alt="" className=" logos w-40" />
+                <img src={js} alt="" className=" logos w-32" />
               </div>
 
               <div  className=" flex items-center justify-center overflow-hidden">
                 {" "}
-                <img src={reactlogo} alt="" className=" logo w-[170px]" />
+                <img src={reactlogo} alt="" className=" logo w-[100px]" />
               </div>
             </div>
           </fieldset>

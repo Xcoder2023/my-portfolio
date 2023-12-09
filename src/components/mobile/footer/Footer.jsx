@@ -10,11 +10,11 @@ const Footer = () => {
     <>
       <div className=" flex flex-col items-center bg-[black] text-[white] p-3">
         <div className=" flex flex-col  items-center gap-2">
-          <div className=" flex justify-between gap-32 items-center">
+          <div className=" flex justify-between gap-20 items-center">
             <div className=" flex justify-center">
               <p className=" text-[20px] font-black">XCODER</p>
             </div>
-              <ul className=" flex gap-2">
+              <ul className=" flex gap-3">
                 <li className=" bg-[white] h-5">
                   <a
                     href="https://twitter.com/mathybaba?t=1tQggG_vbnxVp-koS1k4iA&s=09"
@@ -67,7 +67,7 @@ const Footer = () => {
             <p className=" -ml-10"> Tel:09014043981</p>
         </div>
         <hr className=" w-[100%]" />
-        <div className=" flex gap-32 text-blue-500">
+        <div className=" flex gap-28 text-blue-500">
           <p>&copy;all right reserved</p>
           <p>courtesy:Me</p>
         </div>

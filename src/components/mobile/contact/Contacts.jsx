@@ -26,10 +26,10 @@ const Contacts = () => {
   return (
     <>
       <div  className=" ">
-        <div data-aos="fade-up" className=" flex justify-center font-bold text-2xl text-[50px]">
+        <div className=" flex justify-center font-bold text-2xl text-[25px]">
           <p>Contact Me</p>
         </div>
-        <div data-aos="fade-down" className=" flex flex-col items-center m-5 border-2 bg-[rgb(88,101,107)] py-5">
+        <div data-aos="fade-down" className=" flex flex-col items-center m-5 border-2 bg-[black] py-5 text-[white] rounded-xl">
           <form ref={form} onSubmit={sendEmail} className=" flex flex-col  gap-1">
             <label htmlFor="first-name" className=" text-[17px]">First Name:</label>
             <input
@@ -71,7 +71,7 @@ const Contacts = () => {
               ></textarea>
             </div>
             <div className=" flex py-5">
-              <button className=" p-2 bg-yellow-300 w-full " type="submit" value="Send">submit</button>
+              <button className=" p-2 bg-yellow-300 w-full text-black" type="submit" value="Send">submit</button>
             </div>
           </form>
         </div>
