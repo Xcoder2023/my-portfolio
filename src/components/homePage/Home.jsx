@@ -1,6 +1,4 @@
 import React from "react";
-import { CiSearch } from "react-icons/ci";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { FaArrowRight } from "react-icons/fa";
 import { TiDeleteOutline } from "react-icons/ti";
 import { useState } from "react";
@@ -9,7 +7,7 @@ import Contact from "../contact/Contact";
 import Skillpage from "../skills/Skillpage";
 import Projects from "../projects/Projects";
 import About from "../aboutPage/About";
-import CV from "../assets/documents/MATHIAS.pdf"
+import CV from "../assets/documents/TechCv.pdf";
 
 const Home = () => {
   const [toggle, setToggle] = useState(false);

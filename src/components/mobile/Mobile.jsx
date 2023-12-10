@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { TypeAnimation } from "react-type-animation";
-import CV from "../assets/documents/MATHIAS.pdf";
+import CV from "../assets/documents/TechCv.pdf";
 
 const Mobile = () => {
   useEffect(() => {

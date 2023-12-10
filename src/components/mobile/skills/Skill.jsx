@@ -15,7 +15,7 @@ const Skill = () => {
   return (
     <>
       <div className=' flex flex-col items-center mb-10 overflow-hidden'>
-        <div className=' text-[50px] font-bold'><p> Skills</p></div>
+        <div className=' text-[25px] font-bold'><p> Skills</p></div>
           <fieldset className=" border-4 pb-5 pt-5">
             <legend className=" flex text-center font-extrabold text-[50px] font-serif social"><span className="legend-txt">My Web Tools</span></legend>
             <div className=" grid grid-cols-2 gap-5 items-center ">
