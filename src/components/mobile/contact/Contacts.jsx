@@ -37,7 +37,7 @@ const Contacts = () => {
               id="firstName"
               name="firstName"
               placeholder="First Name"
-              className=" border-2 p-2 w-[300px] font-bold"
+              className=" border-2 p-2 w-[300px] font-bold text-black capitalize"
               required
             />
 
@@ -47,7 +47,7 @@ const Contacts = () => {
               id="lastName"
               name="lastName"
               placeholder="Last Name"
-              className=" border-2 p-2 w-[300px] font-bold"
+              className=" border-2 p-2 w-[300px] font-bold text-black capitalize"
               required
             />
 
@@ -57,7 +57,7 @@ const Contacts = () => {
               id="user_email"
               name="email"
               placeholder="Email"
-              className=" border-2 p-2 w-[300px] font-bold"
+              className=" border-2 p-2 w-[300px] font-bold text-[black]"
               required
               
             />
@@ -67,7 +67,7 @@ const Contacts = () => {
                 name="user_message"
                 id="user_message"
                 placeholder="message"
-                className=" flex p-3 border-2 w-[300px] font-bold"
+                className=" flex p-3 border-2 w-[300px] font-bold text-black capitalize"
               ></textarea>
             </div>
             <div className=" flex py-5">

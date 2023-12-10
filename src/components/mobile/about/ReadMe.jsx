@@ -35,9 +35,9 @@ const ReadMe = () => {
             <p>
               Hey!{" "}
               <span className=" text-yellow-300 font-black">
-                I'm Mathias E,
+                I'm Mathias,
               </span>{" "}
-              a front-end developer in Lagos Nigeria.
+              Front-end developer in Lagos Nigeria.
             </p>
           </div>
           <div className=" ">
