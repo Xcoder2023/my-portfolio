@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs.sendForm('service_0axkyhk', 'template_mkmyajh', form.current, 'hDA_gOWpMLhI5u_RZ')
       .then((result) => {
-          alert('submitted successfully');
+          alert('Submitted Successfully');
           form.current.reset();
       }, (error) => {
-          console.log(error.text);
+          alert('Something went wrong');
       });
       
   };

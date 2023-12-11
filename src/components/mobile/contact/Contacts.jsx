@@ -18,11 +18,11 @@ const Contacts = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert('Submitted Successfully');
           form.current.reset();
         },
         (error) => {
-          console.log(error.text);
+          alert('Something went wrong');
         }
       );
   };
