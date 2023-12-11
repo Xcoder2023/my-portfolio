@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { TypeAnimation } from "react-type-animation";
+import { MdOutlineFileDownload } from "react-icons/md";
 import CV from "../assets/documents/TechCv.pdf";
 
 const Mobile = () => {
@@ -13,11 +14,11 @@ const Mobile = () => {
     <>
       <div className=" bg-[url('/src/components/assets/project/space.jpg')] w-[100%] h-[100vh] bg-no-repeat bg-cover bg-center xl:hidden flex flex-col justify-between">
         <div className=" flex p-2 text-white shadow-md ">
-          <p className=" font-black text-[20px]">XCODER</p>
+          <p className=" font-black text-[20px] font-serif">XCODER</p>
         </div>
         <div
           data-aos="fade-left"
-          className=" flex flex-col justify-center items-center mb-[200px] text-[white] p-5 font-bold overflow-hidden"
+          className=" flex flex-col justify-center items-center mb-[200px] text-[white] p-5 font-bold overflow-hidden font-serif"
         >
           <TypeAnimation
             sequence={[
@@ -37,10 +38,11 @@ const Mobile = () => {
             I build smart user interface with usefull interactions, resolves
             design problem, develops classic web applications and seamless web
             experiences.
-            <button className=" text-yellow-500 underline hover:text-blue-600 cursor-pointer">
+            <button className=" text-yellow-500 underline hover:text-green-600 cursor-pointer flex items-center">
               <a href={CV} target="" download="MATHIAS-CV.pdf">
                 CV
               </a>
+              <MdOutlineFileDownload />
             </button>
           </p>
         </div>

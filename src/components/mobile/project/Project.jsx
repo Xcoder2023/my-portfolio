@@ -30,7 +30,7 @@ const Project = () => {
             </div>
             <div
               data-aos="fade-left"
-              className=" flex flex-col h-[50%] justify-center items-center bg-[white] p-3 overflow-hidden"
+              className=" flex flex-col h-[50%] justify-center items-center bg-[white] p-3 overflow-hidden font-serif"
             >
               <p> Mich Homes</p>
               <p className="">
@@ -64,7 +64,7 @@ const Project = () => {
             ></div>
             <div
               data-aos="fade-down"
-              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-3 overflow-hidden"
+              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-3 overflow-hidden font-serif"
             >
               <p> Mamaket</p>
               <p className="">
@@ -105,7 +105,7 @@ const Project = () => {
             </div>
             <div
               data-aos="fade-right"
-              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-3 overflow-hidden"
+              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-3 overflow-hidden font-serif"
             >
               <p>Infinite Dog App</p>
               <p className="">

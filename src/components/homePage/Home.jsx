@@ -80,12 +80,12 @@ const Home = () => {
               build smart user interface with usefull interactions, resolves
               design problem, develops classic web applications and seamless web
               experiences.
-              <span className=" text-yellow-500 underline hover:text-green-500 flex items-center">
+              <button className=" text-yellow-500 underline hover:text-green-500 flex items-center">
                 <a href={CV} target="" download="mathias-cv.pdf">
                   CV
                 </a>
                 <MdOutlineFileDownload />
-              </span>{" "}
+              </button>{" "}
             </p>
             <div
               className={

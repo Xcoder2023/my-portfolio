@@ -31,7 +31,7 @@ const ReadMe = () => {
           data-aos="fade-left"
           className=" flex flex-col items-center justify-center gap-5 bg-[black] text-[white p-5 border-2 overflow-hidden"
         >
-          <div className=" text-white font-black hover:bg-[blue] flex justify-center text-center">
+          <div className=" text-white font-black font-serif hover:bg-[blue] flex justify-center text-center">
             <p>
               Hey!{" "}
               <span className=" text-yellow-500 font-black">
@@ -44,7 +44,7 @@ const ReadMe = () => {
             <img src={mathy} alt="" className=" rounded-full w-32" />
           </div>
           <div className=" flex">
-            <div className=" flex justify-center text-start font-sans leading-7 text-[white] text-[18px]">
+            <div className=" flex justify-center text-start font-serif leading-7 text-[white] text-[18px]">
               <p>
                 {" "}
                 with entry-level  experience specializing in web development, user interface design, HTML and reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to

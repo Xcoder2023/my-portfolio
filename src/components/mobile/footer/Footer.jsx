@@ -11,7 +11,7 @@ const Footer = () => {
       <div className=" flex flex-col items-center bg-[black] text-[white] p-3">
         <div className=" flex flex-col  items-center gap-2">
           <div className=" flex justify-between gap-20 items-center">
-            <div className=" flex justify-center">
+            <div className=" flex justify-center font-serif">
               <p className=" text-[20px] font-black">XCODER</p>
             </div>
               <ul className=" flex gap-3">
@@ -64,10 +64,10 @@ const Footer = () => {
                 </li>
               </ul>
           </div>
-            <p className=" -ml-10"> Tel:09014043981</p>
+            <p className=" -ml-10 font-serif"> Tel:09014043981</p>
         </div>
         <hr className=" w-[100%]" />
-        <div className=" flex gap-28 text-blue-500">
+        <div className=" flex gap-28 text-blue-500 font-serif">
           <p>&copy;all right reserved</p>
           <p>courtesy:Me</p>
         </div>
