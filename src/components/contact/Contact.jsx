@@ -14,7 +14,7 @@ const Contact = () => {
 
     emailjs.sendForm('service_0axkyhk', 'template_mkmyajh', form.current, 'hDA_gOWpMLhI5u_RZ')
       .then((result) => {
-          console.log(result.text);
+          alert('submitted successfully');
           form.current.reset();
       }, (error) => {
           console.log(error.text);
@@ -31,26 +31,26 @@ const Contact = () => {
           <label htmlFor="first-name">First Name:</label>
           <input
             type="text" placeholder="First Name" name="firstName"
-            className=" border-2 p-2 w-[300px] text-blue-300"
+            className=" border-2 p-2 w-[300px] text-black capitalize"
             required
           />
 
           <label htmlFor="last-name">Last Name:</label>
           <input
             type="text" placeholder="Last Name" name="lastName"
-            className=" border-2 p-2 w-[300px] text-blue-300"
+            className=" border-2 p-2 w-[300px] text-black capitalize"
             required
           />
 
           <label htmlFor="first-name">Email:</label>
           <input
             type="Email" placeholder="Email" name="email"
-            className=" border-2 p-2 w-[300px] text-blue-300"
+            className=" border-2 p-2 w-[300px] text-black"
             required
           />
           <label htmlFor="text">message</label>
        <div className=" flex flex-col gap-5">
-          <textarea name="user_message" id="user_message" placeholder="message" className=" flex p-3 text-slate-400 "></textarea>
+          <textarea name="user_message" id="user_message" placeholder="message" required className=" flex p-3 text-black "></textarea>
 
             <button className=" p-2 bg-yellow-300 w-full ">
               submit

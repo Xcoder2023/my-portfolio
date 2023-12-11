@@ -15,8 +15,8 @@ const Skill = () => {
   return (
     <>
       <div className=' flex flex-col items-center mb-10 overflow-hidden'>
-        <div className=' text-[25px] font-bold'><p> Skills</p></div>
-          <fieldset className=" border-4 pb-5 pt-5">
+        <div className=' text-[25px] font-bold font-serif'><p> Skills</p></div>
+          <fieldset className=" border-4 pb-5 pt-5 p-5">
             <legend className=" flex text-center font-extrabold text-[50px] font-serif social"><span className="legend-txt">My Web Tools</span></legend>
             <div className=" grid grid-cols-2 gap-5 items-center ">
 
@@ -25,7 +25,7 @@ const Skill = () => {
               </div>
 
               <div data-aos='fade-right' className=" flex items-center justify-center mb-7 overflow-hidden">
-                <img src={tailwind} alt="" className="  rounded-2xl" />
+                <img src={tailwind} alt=""/>
               </div>
 
               <div className=" flex items-center justify-center overflow-hidden">

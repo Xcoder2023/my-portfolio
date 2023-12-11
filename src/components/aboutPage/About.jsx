@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div className=" flex justify-center items-center p-12">
         <div className=" flex flex-col items-center justify-center gap-5 bg-[black] text-[white p-5">
-          <div className=" text-white font-black hover:underline hover:bg-[blue] hover:p-2">
+          <div className=" text-white font-black hover:underline hover:bg-[blue] hover:p-2 font-serif">
             <p>
               Hey!{" "}
               <span className=" text-yellow-300 font-black">I'm Mathias,</span>{" "}
@@ -15,17 +15,13 @@ const About = () => {
           </div>
 
           <div className=" flex">
-            <div className=" flex justify-center text-start w-[40rem] font-sans leading-7 text-[white] abouttxt">
+            <div className=" flex justify-center text-start w-[40rem] leading-7 text-[white] abouttxt font-serif">
               <p>
                 {" "}
-                Seeking for entry-level opportunity with an experience of
-                javascript, react, html/css/tailwindcss. I deliver exceptional
-                user friendly graphical user interface, adept at contributing to
+                with entry-level  experience specializing in web development, user interface design, HTML, reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
                 a highly collaborative work environment, finding solutions and
-                determing customer satisfaction. I builds exceptional user
-                freindly website of different purpose ranging from E-commernce,
-                School/Church, NGO <span className="">et al</span> websites I'm
-                a young dynamic and highly motivated person, striving to live a
+                determining customer satisfaction.
+                with my  dynamic and highly motivated ability, I strive to live a
                 professional life in a performance driven environment where I
                 can face new challenges and exceed all expectations base on
                 improvement built on competence without compromising integrity

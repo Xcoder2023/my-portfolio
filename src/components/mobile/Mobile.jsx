@@ -17,7 +17,7 @@ const Mobile = () => {
         </div>
         <div
           data-aos="fade-left"
-          className=" flex flex-col justify-center items-center mb-[200px] text-[white] p-5 font-bold overflow-hidden leading-10"
+          className=" flex flex-col justify-center items-center mb-[200px] text-[white] p-5 font-bold overflow-hidden"
         >
           <TypeAnimation
             sequence={[

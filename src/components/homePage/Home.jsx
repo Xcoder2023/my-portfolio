@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { TiDeleteOutline } from "react-icons/ti";
+import { MdOutlineFileDownload } from "react-icons/md";
 import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import Contact from "../contact/Contact";
@@ -8,6 +9,7 @@ import Skillpage from "../skills/Skillpage";
 import Projects from "../projects/Projects";
 import About from "../aboutPage/About";
 import CV from "../assets/documents/TechCv.pdf";
+import Experience from "../experience/Experience";
 
 const Home = () => {
   const [toggle, setToggle] = useState(false);
@@ -22,11 +24,14 @@ const Home = () => {
   const [slide, setSlide] = useState(false);
   const handleSlide = () => setSlide(!slide);
 
+  const [scroll, setScroll] = useState(false);
+  const handleScroll = () => setScroll(!scroll);
+
   return (
     <>
       <div className=" bg-[url('/src/components/assets/software-developer.jpg')] bg-center bg-cover w-full h-[100vh] bg-no-repeat hidden lg:block">
         <div className=" flex justify-center text-slate-50 p-5 items-center">
-          <ul className="set flex gap-5 bg-blue-700 p-7 -mt-10 cursor-pointer">
+          <ul className="set flex gap-5 bg-blue-700 p-7 -mt-10 cursor-pointer font-serif">
             <li
               className=" text-green-300 hover:underline hover:text-yellow-500 text-[30px] font-extrabold"
               onClick={handleSlide}
@@ -39,7 +44,10 @@ const Home = () => {
             >
               Skills
             </li>
-            <li className=" text-white hover:underline hover:text-yellow-500 text-[30px] font-extrabold">
+            <li
+              className=" text-white hover:underline hover:text-yellow-500 text-[30px] font-extrabold"
+              onClick={handleScroll}
+            >
               Experiences
             </li>
             <li
@@ -52,18 +60,31 @@ const Home = () => {
         </div>
         <div className=" flex justify-between items-center pr-12 pt-[120px]">
           <div className=" ml-10 flex justify-center items-center text-[30px] font-serif">
-          <TypeAnimation sequence={['Welcome To My Portfolio!',1000,'',1000,'XCODER2023...']} style={{color:'yellow'}} repeat={Infinity} speed={20} wrapper="h1"/>
+            <TypeAnimation
+              sequence={[
+                "Welcome To My Portfolio!",
+                1000,
+                "",
+                1000,
+                "XCODER2023...",
+              ]}
+              style={{ color: "yellow" }}
+              repeat={Infinity}
+              speed={20}
+              wrapper="h1"
+            />
           </div>
-          <div className=" text-blue-50 text-xl w-96 gap-10 flex flex-col font-black ">
+          <div className=" text-blue-50 text-xl w-96 gap-10 flex flex-col font-black font-serif">
             <p>
               Hi, <span className=" text-yellow-500">i am mathias,</span> i
               build smart user interface with usefull interactions, resolves
               design problem, develops classic web applications and seamless web
-              experiences.Download my{" "}
-              <span className=" text-yellow-500 underline hover:text-green-500">
-                <a href={CV} target="" download='mathias-cv.pdf'>
+              experiences.
+              <span className=" text-yellow-500 underline hover:text-green-500 flex items-center">
+                <a href={CV} target="" download="mathias-cv.pdf">
                   CV
                 </a>
+                <MdOutlineFileDownload />
               </span>{" "}
             </p>
             <div
@@ -74,50 +95,56 @@ const Home = () => {
               }
               onClick={handleClicked}
             >
-              <button className="bts bg-yellow-30 p-2 flex justify-center items-center gap-2">
-                <span className="  flex items-center gap-2 text-center">
-                  Hire Me <FaArrowRight />
-                </span>
+              <button className="bts bg-yellow-30 p-2 flex justify-center items-center gap-2 font-serif">
+                Hire Me <FaArrowRight />
               </button>
             </div>
           </div>
         </div>
       </div>
-     <div>
-     <div className=" hidden xl:block">
-        <div
-          className={click ? "contact active w-[470px]" : "contact w-[470px]"}
-        >
-          <TiDeleteOutline
-            className="  absolute top-2 left-[440px] bg-gray-300"
-            onClick={handleClicked}
-          />
-          <Contact />
-        </div>
+      <div>
+        <div className=" hidden xl:block">
+          <div
+            className={click ? "contact active w-[470px]" : "contact w-[470px]"}
+          >
+            <TiDeleteOutline
+              className="  absolute top-2 left-[440px] bg-gray-300"
+              onClick={handleClicked}
+            />
+            <Contact />
+          </div>
 
-        <div className={toggle ? "skill active" : "skill"}>
-          <TiDeleteOutline
-            className=" absolute left-[634px] top-[106px]  z-10 bg-[red]"
-            onClick={handleToggle}
-          />
-          <Skillpage />
-        </div>
-        <div className={swipe ? "project active" : "project"}>
-          <TiDeleteOutline
-            className=" absolute left-[650px] top-[20px] bg-[purple]  text-[white] z-10"
-            onClick={handleSwiped}
-          />
-          <Projects />
-        </div>
-        <div className={slide ? "about active" : "about"}>
-          <TiDeleteOutline
-            className=" absolute left-[630px] top-[70px] bg-[yellow]  text-[black] z-10"
-            onClick={handleSlide}
-          />
-          <About />
+          <div className={toggle ? "skill active" : "skill"}>
+            <TiDeleteOutline
+              className=" absolute left-[634px] top-[106px]  z-10 bg-[red]"
+              onClick={handleToggle}
+            />
+            <Skillpage />
+          </div>
+          <div className={swipe ? "project active" : "project"}>
+            <TiDeleteOutline
+              className=" absolute left-[650px] top-[20px] bg-[purple]  text-[white] z-10"
+              onClick={handleSwiped}
+            />
+            <Projects />
+          </div>
+          <div className={slide ? "about active" : "about"}>
+            <TiDeleteOutline
+              className=" absolute left-[630px] top-[70px] bg-[yellow]  text-[black] z-10"
+              onClick={handleSlide}
+            />
+            <About />
+          </div>
+
+          <div className={scroll ? "experience active" : "experience"}>
+            <TiDeleteOutline
+              className=" absolute left-[750px] top-[20px] bg-yellow-500 hover:bg-[red] text-[black] z-10"
+              onClick={handleScroll}
+            />
+            <Experience />
+          </div>
         </div>
       </div>
-     </div>
     </>
   );
 };

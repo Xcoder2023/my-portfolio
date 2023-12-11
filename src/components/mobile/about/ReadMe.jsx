@@ -34,7 +34,7 @@ const ReadMe = () => {
           <div className=" text-white font-black hover:bg-[blue] flex justify-center text-center">
             <p>
               Hey!{" "}
-              <span className=" text-yellow-300 font-black">
+              <span className=" text-yellow-500 font-black">
                 I'm Mathias,
               </span>{" "}
               Front-end developer in Lagos Nigeria.
@@ -47,15 +47,13 @@ const ReadMe = () => {
             <div className=" flex justify-center text-start font-sans leading-7 text-[white] text-[18px]">
               <p>
                 {" "}
-                with one year experience working with javascript, react,
-                html/css/tailwindcss to deliver exceptional customer
-                experiences. Adept at contributing to a highly collaborative
-                work environment, finding solutions and determing customer
-                satisfaction.{" "}
+                with entry-level  experience specializing in web development, user interface design, HTML and reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
+                a highly collaborative work environment, finding solutions and
+                determining customer satisfaction.
                 <span onClick={handleRead}>
                   {" "}
                   {visible && (
-                    <div className=" text-blue-600">Read more...</div>
+                    <div className=" text-yellow-500">Read more...</div>
                   )}
                 </span>
                 {read && (
@@ -71,7 +69,7 @@ const ReadMe = () => {
                     supervision to achieve organizational goals or objectives
                     and hope to bring the drive, dedication and cooperation to
                     make significant contribution to the society. <br />{" "}
-                    <span className=" text-blue-600" onClick={toggle}>
+                    <span className=" text-yellow-500" onClick={toggle}>
                       See less...
                     </span>{" "}
                   </span>
