@@ -67,7 +67,7 @@ const Footer = () => {
             <p className=" -ml-10 font-serif"> Tel:09014043981</p>
         </div>
         <hr className=" w-[100%]" />
-        <div className=" flex gap-28 text-blue-500 font-serif">
+        <div className=" flex gap-20 text-blue-500 font-serif">
           <p>&copy;all right reserved</p>
           <p>courtesy:Me</p>
         </div>
