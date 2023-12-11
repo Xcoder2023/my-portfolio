@@ -8,7 +8,7 @@ import Contact from "../contact/Contact";
 import Skillpage from "../skills/Skillpage";
 import Projects from "../projects/Projects";
 import About from "../aboutPage/About";
-import CV from "../assets/documents/TechCv.pdf";
+import CV from "../assets/documents/edittedcv.pdf";
 
 const Home = () => {
   const [toggle, setToggle] = useState(false);

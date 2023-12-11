@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { TypeAnimation } from "react-type-animation";
 import { MdOutlineFileDownload } from "react-icons/md";
-import CV from "../assets/documents/TechCv.pdf";
+import CV from "../assets/documents/edittedcv.pdf";
 
 const Mobile = () => {
   useEffect(() => {

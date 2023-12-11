@@ -21,7 +21,7 @@ const Experiences = () => {
             </p>
 
             <p >
-              <span className=" text-yellow-600">C</span>ollabrated with other
+              <span className=" text-yellow-600">C</span>ollaborated with other
               developers, designers, and project teams to ensure successful,
               on-schedule development and delivery web applications.
             </p>
@@ -45,7 +45,7 @@ const Experiences = () => {
 
             <p >
               <span className=" text-yellow-600">W</span>orked with client to
-              develope the overall look and design of a website.
+              developed the overall look and design of a website.
             </p>
 
             <p >
