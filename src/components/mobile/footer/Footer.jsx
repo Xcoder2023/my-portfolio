@@ -64,10 +64,10 @@ const Footer = () => {
                 </li>
               </ul>
           </div>
-            <p className=" -ml-10 font-serif"> Tel:09014043981</p>
+            <p className=" "> Tel:09014043981</p>
         </div>
         <hr className=" w-[100%]" />
-        <div className=" flex gap-20 text-blue-500 font-serif">
+        <div className=" flex gap-10 text-blue-500 font-serif">
           <p>&copy;all right reserved</p>
           <p>courtesy:Me</p>
         </div>

@@ -60,7 +60,7 @@ const Project = () => {
           <div className=" w-[100%] flex flex-col justify-center bg-[rgb(2,1,24)] p-3 gap-2">
             <div
               data-aos="fade-up"
-              className=" flex justify-center items-center  bg-[url('/src/components/assets/project/mamaket.png')] bg-cover h-[50vh] bg-no-repeat rounded-xl bg-center overflow-hidden"
+              className=" flex justify-center items-center  bg-[url('/src/components/assets/project/market23.jpg')] bg-cover h-[50vh] bg-no-repeat bg-center overflow-hidden"
             ></div>
             <div
               data-aos="fade-down"
