@@ -5,6 +5,7 @@ import lin from "../assets/socialMedia/linkedin.png";
 import twitter from "../assets/socialMedia/twitter.png";
 import youtube from "../assets/socialMedia/youtube.png";
 import instagram from "../assets/socialMedia/instagram.png";
+import { message } from "antd";
 
 const Contact = () => {
   const form = useRef();
@@ -14,10 +15,10 @@ const Contact = () => {
 
     emailjs.sendForm('service_0axkyhk', 'template_mkmyajh', form.current, 'hDA_gOWpMLhI5u_RZ')
       .then((result) => {
-          alert('Submitted Successfully');
+          message.success("submitted successfully");
           form.current.reset();
       }, (error) => {
-          alert('Something went wrong');
+          message.error("Network error, try again");
       });
       
   };

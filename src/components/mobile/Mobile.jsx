@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
+import React,{useEffect} from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { TypeAnimation } from "react-type-animation";

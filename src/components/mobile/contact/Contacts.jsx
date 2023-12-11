@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { message } from "antd";
 
 const Contacts = () => {
   const form = useRef();
@@ -18,11 +19,11 @@ const Contacts = () => {
       )
       .then(
         (result) => {
-          alert('Submitted Successfully');
+          message.success("submitted successfully")
           form.current.reset();
         },
         (error) => {
-          alert('Something went wrong');
+          message.error("Network error, try again")
         }
       );
   };
@@ -32,7 +33,7 @@ const Contacts = () => {
   }, []);
   return (
     <>
-      <div className=" " style={{fontFamily:'poppins'}}>
+      <div className=" " style={{ fontFamily: "poppins" }}>
         <div className=" flex justify-center text-2xl text-[20px]">
           <p>Contact Me</p>
         </div>
