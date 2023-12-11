@@ -3,9 +3,9 @@ import React from "react";
 const Experience = () => {
   return (
     <>
-      <div className=" flex justify-center">
+      <div className=" flex justify-center" style={{fontFamily:"poppins"}}>
         <div className=" flex flex-col  items-center bg-black w-[50%] text-white p-3">
-          <p className=" text-[25px] pb-2 hover:text-yellow-500">
+          <p className=" text-[25px] pb-2 hover:text-yellow-500 text">
             <span className=" text-yellow-600">E</span>xperience
           </p>
           <div className=" flex flex-col gap-3 items-cente border-2 p-2">

@@ -4,18 +4,18 @@ import mathy from "../assets/about/mathy.jpg";
 const About = () => {
   return (
     <>
-      <div className=" flex justify-center items-center p-12">
+      <div className=" flex justify-center items-center p-12" style={{fontFamily:"poppins"}}>
         <div className=" flex flex-col items-center justify-center gap-5 bg-[black] text-[white p-5">
-          <div className=" text-white font-black hover:underline hover:bg-[blue] hover:p-2 font-serif">
+          <div className=" text-white  hover:underline hover:bg-[blue] hover:p-2" >
             <p>
               Hey!{" "}
-              <span className=" text-yellow-300 font-black">I'm Mathias,</span>{" "}
+              <span className=" text-yellow-300">I'm Mathias,</span>{" "}
               Front-end developer in Lagos Nigeria.
             </p>
           </div>
 
           <div className=" flex">
-            <div className=" flex justify-center text-start w-[40rem] leading-7 text-[white] abouttxt font-serif">
+            <div className=" flex justify-center text-start w-[40rem] leading-7 text-[white]">
               <p>
                 {" "}
                 with entry-level  experience specializing in web development, user interface design, HTML, reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to

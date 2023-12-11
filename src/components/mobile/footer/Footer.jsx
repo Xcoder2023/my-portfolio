@@ -8,11 +8,11 @@ import instagram from "../../assets/socialMedia/instagram.png";
 const Footer = () => {
   return (
     <>
-      <div className=" flex flex-col items-center bg-[black] text-[white] p-3">
+      <div className=" flex flex-col items-center bg-[black] text-[white] p-3" style={{fontFamily:'poppins'}}>
         <div className=" flex flex-col  items-center gap-2">
           <div className=" flex justify-between gap-20 items-center">
             <div className=" flex justify-center font-serif">
-              <p className=" text-[20px] font-black">XCODER</p>
+              <p className=" text-[20px]">XCODER</p>
             </div>
               <ul className=" flex gap-3">
                 <li className=" bg-[white] h-5">
@@ -67,7 +67,7 @@ const Footer = () => {
             <p className=" "> Tel:09014043981</p>
         </div>
         <hr className=" w-[100%]" />
-        <div className=" flex gap-10 text-blue-500 font-serif">
+        <div className=" flex gap-10 text-blue-500">
           <p>&copy;all right reserved</p>
           <p>courtesy:Me</p>
         </div>

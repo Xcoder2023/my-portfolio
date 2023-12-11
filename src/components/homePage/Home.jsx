@@ -9,7 +9,6 @@ import Skillpage from "../skills/Skillpage";
 import Projects from "../projects/Projects";
 import About from "../aboutPage/About";
 import CV from "../assets/documents/TechCv.pdf";
-import Experience from "../experience/Experience";
 
 const Home = () => {
   const [toggle, setToggle] = useState(false);
@@ -29,29 +28,24 @@ const Home = () => {
 
   return (
     <>
-      <div className=" bg-[url('/src/components/assets/software-developer.jpg')] bg-center bg-cover w-full h-[100vh] bg-no-repeat hidden lg:block">
-        <div className=" flex justify-center text-slate-50 p-5 items-center">
-          <ul className="set flex gap-5 bg-blue-700 p-7 -mt-10 cursor-pointer font-serif">
+      <div className=" bg-[url('/src/components/assets/software-developer.jpg')] bg-center bg-cover w-full h-[100vh] bg-no-repeat hidden lg:block" style={{fontFamily: "poppins"}}>
+        <div className=" flex justify-center text-slate-50 p-5 items-center text-[20px]">
+          <ul className="set flex gap-5 bg-blue-700 p-5 -mt-10 cursor-pointer">
             <li
-              className=" text-green-300 hover:underline hover:text-yellow-500 text-[30px] font-extrabold"
+              className=" text-green-300 hover:underline hover:text-yellow-500"
               onClick={handleSlide}
             >
               About
             </li>
             <li
-              className=" hover:underline hover:text-yellow-500 text-[30px] font-extrabold"
+              className=" hover:underline hover:text-yellow-500"
               onClick={handleToggle}
             >
               Skills
             </li>
+  
             <li
-              className=" text-white hover:underline hover:text-yellow-500 text-[30px] font-extrabold"
-              onClick={handleScroll}
-            >
-              Experiences
-            </li>
-            <li
-              className=" text-green-300 hover:underline hover:text-yellow-500 text-[30px] font-extrabold"
+              className=" text-green-300 hover:underline hover:text-yellow-500"
               onClick={handleSwiped}
             >
               Projects
@@ -59,7 +53,7 @@ const Home = () => {
           </ul>
         </div>
         <div className=" flex justify-between items-center pr-12 pt-[120px]">
-          <div className=" ml-10 flex justify-center items-center text-[30px] font-serif">
+          <div className=" ml-10 flex justify-center items-center text-[20px]">
             <TypeAnimation
               sequence={[
                 "Welcome To My Portfolio!",
@@ -74,7 +68,7 @@ const Home = () => {
               wrapper="h1"
             />
           </div>
-          <div className=" text-blue-50 text-xl w-96 gap-10 flex flex-col font-black font-serif">
+          <div className=" text-blue-50 text-xl w-96 gap-10 flex flex-col">
             <p>
               Hi, <span className=" text-yellow-500">i am mathias,</span> i
               build smart user interface with usefull interactions, resolves
@@ -95,7 +89,7 @@ const Home = () => {
               }
               onClick={handleClicked}
             >
-              <button className="bts bg-yellow-30 p-2 flex justify-center items-center gap-2 font-serif">
+              <button className="bts bg-yellow-30 p-2 flex justify-center items-center gap-2">
                 Hire Me <FaArrowRight />
               </button>
             </div>
@@ -136,13 +130,6 @@ const Home = () => {
             <About />
           </div>
 
-          <div className={scroll ? "experience active" : "experience"}>
-            <TiDeleteOutline
-              className=" absolute left-[750px] top-[20px] bg-yellow-500 hover:bg-[red] text-[black] z-10"
-              onClick={handleScroll}
-            />
-            <Experience />
-          </div>
         </div>
       </div>
     </>

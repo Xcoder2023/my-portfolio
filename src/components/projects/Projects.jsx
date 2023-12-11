@@ -6,9 +6,9 @@ import { MdLink } from "react-icons/md";
 const Projects = () => {
   return (
     <>
-        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2">
+        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
           <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/michHome.png')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center"></div>
-          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-3">
+          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
             <p className=" text-[20px]"> Mich Homes</p>
             <p className="">
               {" "}
@@ -34,8 +34,8 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2">
-          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-3">
+        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
+          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
             <p className=" text-[20px]"> Mamaket</p>
             <p className="">
               {" "}
@@ -62,11 +62,11 @@ const Projects = () => {
           <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/mamaket.png')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center"></div>
         </div>
 
-        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2">
+        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
           <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/images.jpeg')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center">
               <input type="text" placeholder="Choose a dog breed " readOnly className=" flex p- bg-transparent border-2 placeholder:text-black placeholder:text-center"/>
           </div>
-          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-3">
+          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
             <p className=" text-[20px]">Infinite Dog App</p>
             <p className="">
               {" "}

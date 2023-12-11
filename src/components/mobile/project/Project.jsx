@@ -13,10 +13,10 @@ const Project = () => {
   return (
     <>
       <div>
-        <div className=" flex flex-col justify-center items-center gap-2 p-5 overflow-hidden">
+        <div className=" flex flex-col justify-center items-center gap-2 p-5 overflow-hidden" style={{fontFamily:'poppins'}}>
           <div
             data-aos="fade-down"
-            className=" text-[25px] font-serif font-bold overflow-hidden"
+            className=" text-[20px]  overflow-hidden"
           >
             <p>Projects</p>
           </div>
@@ -30,7 +30,7 @@ const Project = () => {
             </div>
             <div
               data-aos="fade-left"
-              className=" flex flex-col h-[50%] justify-center items-center bg-[white] p-3 overflow-hidden font-serif"
+              className=" flex flex-col h-[50%] justify-center items-center bg-[white] p-1 overflow-hidden"
             >
               <p> Mich Homes</p>
               <p className="">
@@ -64,7 +64,7 @@ const Project = () => {
             ></div>
             <div
               data-aos="fade-down"
-              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-3 overflow-hidden font-serif"
+              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-1 overflow-hidden"
             >
               <p> Mamaket</p>
               <p className="">
@@ -105,7 +105,7 @@ const Project = () => {
             </div>
             <div
               data-aos="fade-right"
-              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-3 overflow-hidden font-serif"
+              className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-1 overflow-hidden"
             >
               <p>Infinite Dog App</p>
               <p className="">

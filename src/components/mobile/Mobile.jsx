@@ -12,13 +12,13 @@ const Mobile = () => {
   }, []);
   return (
     <>
-      <div className=" bg-[url('/src/components/assets/project/space.jpg')] w-[100%] h-[100vh] bg-no-repeat bg-cover bg-center xl:hidden flex flex-col justify-between">
+      <div className=" bg-[url('/src/components/assets/project/space.jpg')] w-[100%] h-[100vh] bg-no-repeat bg-cover bg-center xl:hidden flex flex-col justify-between" style={{fontFamily:'poppins'}}>
         <div className=" flex p-2 text-white shadow-md ">
-          <p className=" font-black text-[20px] font-serif">XCODER</p>
+          <p className=" font-black text-[20px]">XCODER</p>
         </div>
         <div
           data-aos="fade-left"
-          className=" flex flex-col justify-center items-center mb-[200px] text-[white] p-5 font-bold overflow-hidden font-serif"
+          className=" flex flex-col justify-center items-center mb-[200px] text-[white] p-5 font-bold overflow-hidden"
         >
           <TypeAnimation
             sequence={[

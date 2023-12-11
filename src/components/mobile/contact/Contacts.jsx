@@ -32,8 +32,8 @@ const Contacts = () => {
   }, []);
   return (
     <>
-      <div className=" ">
-        <div className=" flex justify-center font-bold text-2xl text-[25px]">
+      <div className=" " style={{fontFamily:'poppins'}}>
+        <div className=" flex justify-center text-2xl text-[20px]">
           <p>Contact Me</p>
         </div>
         <div

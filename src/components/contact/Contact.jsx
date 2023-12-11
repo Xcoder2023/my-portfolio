@@ -23,7 +23,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className=" flex flex-col justify-center items-center p-12 text-white  bg-[url('/src/components/assets/images.jpeg')] h-[100vh] bg-no-repeat bg-cover bg-center">
+      <div className=" flex flex-col justify-center items-center p-12 text-white  bg-[url('/src/components/assets/images.jpeg')] h-[100vh] bg-no-repeat bg-cover bg-center" style={{fontFamily:'poppins'}}>
         <div className=" flex justify-center font-black text-2xl tracking-widest">
           <p>Contact Me</p>
         </div>

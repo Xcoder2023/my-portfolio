@@ -8,9 +8,9 @@ const Experiences = () => {
   },[]);
   return (
     <>
-      <div className=" flex justify-center overflow-hidden">
+      <div className=" flex justify-center overflow-hidden" style={{fontFamily:'poppins'}}>
         <div className=" flex flex-col  items-center  text-white p-3">
-          <p className=" text-[25px] pb-2 hover:text-yellow-500 text-[black] font-serif font-bold">
+          <p className=" text-[20px] pb-2 hover:text-yellow-500 text-[black]">
             <span className=" text-yellow-600">E</span>xperience
           </p>
           <div data-aos='fade-left' className=" flex flex-col gap-3 items-cente border-2 p-3  bg-black rounded-2xl overflow-hidden">
