@@ -23,7 +23,7 @@ const ReadMe = () => {
       <div className=" flex flex-col justify-center items-center my-3 overflow-hidden" style={{fontFamily:'poppins'}}>
         <div
           data-aos="fade-up"
-          className=" flex justify-center text-[20px] font-bold overflow-hidden"
+          className=" flex justify-center text-[20px] overflow-hidden"
         >
           <p>About</p>
         </div>
