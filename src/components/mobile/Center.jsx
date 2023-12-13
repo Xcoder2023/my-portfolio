@@ -11,7 +11,7 @@ import Experiences from './experiences/Experiences';
 const Center = () => {
   return (
     <>
-      <div className=' xl:hidden'>
+      <div>
       <Mobile />
       <ReadMe />
       <Project />

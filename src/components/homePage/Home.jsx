@@ -9,6 +9,7 @@ import Skillpage from "../skills/Skillpage";
 import Projects from "../projects/Projects";
 import About from "../aboutPage/About";
 import CV from "../assets/documents/edittedcv.pdf";
+import Center from "../mobile/Center";
 
 const Home = () => {
   const [toggle, setToggle] = useState(false);
@@ -47,7 +48,7 @@ const Home = () => {
             style={{ fontFamily: "poppins" }}
           >
             <div className=" flex justify-center text-slate-50 p-5 items-center text-[20px]">
-              <ul className="set flex gap-5 bg-blue-700 p-5 -mt-10 cursor-pointer">
+              <ul className="set flex gap-7 bg-blue-700 p-6 -mt-10 cursor-pointer">
                 <li
                   className=" text-green-300 hover:underline hover:text-yellow-500"
                   onClick={handleSlide}
@@ -112,43 +113,46 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div className=" hidden xl:block">
-              <div
-                className={
-                  click ? "contact active w-[470px]" : "contact w-[470px]"
-                }
-              >
-                <TiDeleteOutline
-                  className="  absolute top-2 left-[440px] bg-gray-300"
-                  onClick={handleClicked}
-                />
-                <Contact />
-              </div>
+            <div>
+              <div className="">
+                <div
+                  className={
+                    click ? "contact active w-[470px]" : "contact w-[470px]"
+                  }
+                >
+                  <TiDeleteOutline
+                    className="  absolute top-2 left-[440px] bg-gray-300"
+                    onClick={handleClicked}
+                  />
+                  <Contact />
+                </div>
 
-              <div className={toggle ? "skill active" : "skill"}>
-                <TiDeleteOutline
-                  className=" absolute left-[634px] top-[106px]  z-10 bg-[red]"
-                  onClick={handleToggle}
-                />
-                <Skillpage />
-              </div>
-              <div className={swipe ? "project active" : "project"}>
-                <TiDeleteOutline
-                  className=" absolute left-[650px] top-[20px] bg-[purple]  text-[white] z-10"
-                  onClick={handleSwiped}
-                />
-                <Projects />
-              </div>
-              <div className={slide ? "about active" : "about"}>
-                <TiDeleteOutline
-                  className=" absolute left-[630px] top-[70px] bg-[yellow]  text-[black] z-10"
-                  onClick={handleSlide}
-                />
-                <About />
+                <div className={toggle ? "skill active" : "skill"}>
+                  <TiDeleteOutline
+                    className=" absolute left-[634px] top-[106px]  z-10 bg-[red]"
+                    onClick={handleToggle}
+                  />
+                  <Skillpage />
+                </div>
+                <div className={swipe ? "project active" : "project"}>
+                  <TiDeleteOutline
+                    className=" absolute left-[650px] top-[20px] bg-[purple]  text-[white] z-10"
+                    onClick={handleSwiped}
+                  />
+                  <Projects />
+                </div>
+                <div className={slide ? "about active" : "about"}>
+                  <TiDeleteOutline
+                    className=" absolute left-[38rem] top-[70px] bg-[yellow]  text-[black] z-10"
+                    onClick={handleSlide}
+                  />
+                  <About />
+                </div>
               </div>
             </div>
+          </div>
+          <div className="lg:hidden block">
+            <Center />
           </div>
         </>
       )}

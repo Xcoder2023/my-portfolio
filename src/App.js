@@ -1,16 +1,12 @@
-
-import './App.css';
-import Home from './components/homePage/Home';
-import Center from './components/mobile/Center';
-
-
+import "./App.css";
+import Home from "./components/homePage/Home";
 
 function App() {
   return (
     <>
-      <Home /> 
-      <Center />
-      
+      <div className=" ">
+        <Home />{" "}
+      </div>
     </>
   );
 }
