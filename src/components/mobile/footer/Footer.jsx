@@ -69,7 +69,6 @@ const Footer = () => {
         <hr className=" w-[100%]" />
         <div className=" flex gap-10 text-blue-500">
           <p>&copy;all right reserved</p>
-          <p>courtesy:Me</p>
         </div>
       </div>
     </>

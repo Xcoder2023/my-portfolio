@@ -100,7 +100,7 @@ const Project = () => {
                 type="text"
                 placeholder="Dog Breed Name"
                 readOnly
-                className=" flex p- bg-transparent border-2 placeholder:text-black placeholder:text-center"
+                className=" flex p- bg-transparent border-2 placeholder:text-white placeholder:text-center"
               />
             </div>
             <div
