@@ -10,7 +10,7 @@ const Projects = () => {
           <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/michHome.png')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center"></div>
           <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
             <p className=" text-[20px]"> Mich Homes</p>
-            <p className=" text-[16px]">
+            <p className=" text-[15.67px]">
               {" "}
               Mich Homes is a web site that lists different classic homes with a
               very astonishing houses, appartments and lodges that are available
@@ -37,7 +37,7 @@ const Projects = () => {
         <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
           <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
             <p className=" text-[20px]"> Mamaket</p>
-            <p className=" text-[16px]">
+            <p className=" text-[15.67px]">
               {" "}
               Mamaket is a mini e-commernce web site that showcase African
               products in USA for sale. It is an online African marketplace for
@@ -64,11 +64,11 @@ const Projects = () => {
 
         <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
           <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/images.jpeg')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center">
-              <input type="text" placeholder="Choose a dog breed " readOnly className=" flex p- bg-transparent border-2 placeholder:text-black placeholder:text-center"/>
+              <input type="text" placeholder="Choose a dog breed " readOnly className=" flex p- bg-transparent border-2 placeholder:text-white placeholder:text-center"/>
           </div>
           <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
             <p className=" text-[20px]">Infinite Dog App</p>
-            <p className=" text-[16px]">
+            <p className=" text-[15.67px]">
               {" "}
               Dog App displays all kinds of dog breed of varying species. It is
               a recommendable site for who is looking for any breed of dog and

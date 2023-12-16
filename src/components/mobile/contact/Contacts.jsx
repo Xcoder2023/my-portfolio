@@ -39,14 +39,15 @@ const Contacts = () => {
         </div>
         <div
           data-aos="fade-down"
-          className=" flex flex-col items-center m-5 border-2 bg-[black] py-5 text-[white] rounded-xl"
+          className=" flex flex-col items-cente m-5 border-2 bg-[black] py-5 text-[white] rounded-xl"
         >
           <form
             ref={form}
             onSubmit={sendEmail}
-            className=" flex flex-col  gap-1"
+            className=" flex flex-col gap-5 p-5"
           >
-            <label htmlFor="first-name" className=" text-[17px]">
+           <div className=" flex flex-col gap-2">
+           <label htmlFor="first-name" className=" text-[17px]">
               First Name:
             </label>
             <input
@@ -54,11 +55,13 @@ const Contacts = () => {
               id="firstName"
               name="firstName"
               placeholder="First Name"
-              className=" border-2 p-2 w-[300px] font-bold text-black capitalize"
+              className=" border-2 p-2 w-[300px font-bold text-black capitalize"
               required
             />
+           </div>
 
-            <label htmlFor="last-name" className=" text-[17px]">
+           <div className=" flex flex-col gap-2">
+           <label htmlFor="last-name" className=" text-[17px]">
               Last Name:
             </label>
             <input
@@ -66,11 +69,13 @@ const Contacts = () => {
               id="lastName"
               name="lastName"
               placeholder="Last Name"
-              className=" border-2 p-2 w-[300px] font-bold text-black capitalize"
+              className=" border-2 p-2 w-[300px font-bold text-black capitalize"
               required
             />
+           </div>
 
-            <label htmlFor="first-name" className=" text-[17px]">
+           <div className=" flex flex-col gap-2">
+           <label htmlFor="first-name" className=" text-[17px]">
               Email:
             </label>
             <input
@@ -78,30 +83,34 @@ const Contacts = () => {
               id="user_email"
               name="email"
               placeholder="Email"
-              className=" border-2 p-2 w-[300px] font-bold text-[black]"
+              className=" border-2 p-2 w-[300px font-bold text-[black]"
               required
             />
-            <label htmlFor="text" className=" text-[17px]">
-              message
+           </div>
+
+          <div className=" flex flex-col gap-2">
+          <label htmlFor="text" className=" text-[17px]">
+              message:
             </label>
-            <div className=" flex flex-col gap-5">
+            
               <textarea
                 required
                 name="user_message"
                 id="user_message"
                 placeholder="message"
-                className=" flex p-3 border-2 w-[300px] font-bold text-black"
+                className=" flex p-3 border-2 w-[300px font-bold text-black"
               ></textarea>
-            </div>
-            <div className=" flex py-5">
+           
+          </div>
+            {/* <div className=" flex py-5"> */}
               <button
-                className=" p-2 bg-yellow-500 w-full text-black"
+                className=" p-2 bg-yellow-500  text-black"
                 type="submit"
                 value="Send"
               >
                 submit
               </button>
-            </div>
+            {/* </div> */}
           </form>
         </div>
       </div>

@@ -98,7 +98,7 @@ const Project = () => {
             >
               <input
                 type="text"
-                placeholder="Dog Breed Name"
+                placeholder="Choose a dog breed"
                 readOnly
                 className=" flex p- bg-transparent border-2 placeholder:text-white placeholder:text-center"
               />
