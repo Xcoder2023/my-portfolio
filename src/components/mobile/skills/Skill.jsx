@@ -14,7 +14,7 @@ const Skill = () => {
   },[]);
   return (
     <>
-      <div className=' flex flex-col p-5 overflow-hidden' style={{fontFamily:'poppins'}}>
+      <div className=' flex flex-col p-5 mb-10 overflow-hidden' style={{fontFamily:'poppins'}}>
         <div className=' text-[20px] text-center'><p> Skills</p></div>
           <fieldset className=" border-4 pb-5 pt-5 p-5">
             <legend className=" flex text-center font-extrabold text-[50px] font-serif social"><span className="legend-txt">My Web Tools</span></legend>

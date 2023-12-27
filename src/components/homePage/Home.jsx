@@ -24,8 +24,8 @@ const Home = () => {
   const [slide, setSlide] = useState(false);
   const handleSlide = () => setSlide(!slide);
 
-  const [scroll, setScroll] = useState(false);
-  const handleScroll = () => setScroll(!scroll);
+  // const [scroll, setScroll] = useState(false);
+  // const handleScroll = () => setScroll(!scroll);
 
   const [isLoading, setisLoading] = useState(true);
 
@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <>
       {isLoading ? (
-        <Spin className=" flex justify-center pt-10" />
+        <Spin className=" flex justify-center items-center py-96" />
       ) : (
         <>
           <div
