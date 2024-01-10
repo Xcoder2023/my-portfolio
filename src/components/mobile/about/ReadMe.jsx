@@ -47,7 +47,7 @@ const ReadMe = () => {
             <div className=" flex justify-center text-start text-[white]">
               <p>
                 {" "}
-                with entry-level  experience specializing in web development, user interface design, HTML and reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
+                Specialized in web development, user interface design, HTML and reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
                 a highly collaborative work environment, finding solutions and
                 determining customer satisfaction.
                 <span onClick={handleRead}>

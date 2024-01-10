@@ -18,7 +18,7 @@ const About = () => {
             <div className=" flex justify-center text-start w-[40rem] leading-7 text-[white]">
               <p>
                 {" "}
-                with entry-level  experience specializing in web development, user interface design, HTML, reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
+                Specialized in web development, user interface design, HTML, reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
                 a highly collaborative work environment, finding solutions and
                 determining customer satisfaction.
                 with my  dynamic and highly motivated ability, I strive to live a

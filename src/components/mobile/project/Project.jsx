@@ -60,29 +60,27 @@ const Project = () => {
           <div className=" w-[100%] flex flex-col justify-center bg-[rgb(2,1,24)] p-3 gap-2">
             <div
               data-aos="fade-up"
-              className=" flex justify-center items-center  bg-[url('/src/components/assets/project/market23.jpg')] bg-cover h-[50vh] bg-no-repeat bg-center overflow-hidden"
+              className=" flex justify-center items-center  bg-[url('/src/components/assets/project/yerksgreen1.png')] bg-cover h-[50vh] bg-no-repeat rounded-xl overflow-hidden"
             ></div>
             <div
               data-aos="fade-down"
               className=" flex flex-col h-[50%] justify-center items-center bg-[white] rounded-xl p-1 overflow-hidden"
             >
-              <p> Mamaket</p>
+              <p>YerksGreen</p>
               <p className="">
                 {" "}
-                Mamaket is a mini e-commernce web site that showcase African
-                products in USA for sale. It is an online African marketplace
-                for buying,selling and celebrating culture.
+                Yerksgreen-Nig is a comprehensive culinary resource dedicated to teaching how to cook healthy Nigerian recipes. It offers a wide range of tutorials, from traditional meals to delightful desserts and refreshing drinks, all emphasizing nutritious and wholesome ingredients. Whether you're a beginner or an experienced cook, Yerksgreen-Nig provides step-by-step guidance to help you master the art of Nigerian cuisine while prioritizing your health.
               </p>
               <p className=" flex items-center gap-5">
                 <a
-                  href="https://github.com/Xcoder2023/mamaket-landing-page"
+                  href="https://github.com/Xcoder2023/Yeksgreen-Nigeria"
                   target="blank"
                 >
                   <PiGithubLogoLight />
                 </a>
                 ||
                 <a
-                  href="https://mamaket-landing-page.vercel.app/"
+                  href="https://yeksgreen.vercel.app/"
                   target="blank"
                 >
                   <MdLink />
