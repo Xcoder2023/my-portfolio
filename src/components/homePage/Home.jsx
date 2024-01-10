@@ -8,7 +8,7 @@ import Contact from "../contact/Contact";
 import Skillpage from "../skills/Skillpage";
 import Projects from "../projects/Projects";
 import About from "../aboutPage/About";
-import CV from "../assets/documents/edittedcv.pdf";
+import CV from "../assets/documents/mathy.pdf"
 import Center from "../mobile/Center";
 
 const Home = () => {
@@ -23,9 +23,6 @@ const Home = () => {
 
   const [slide, setSlide] = useState(false);
   const handleSlide = () => setSlide(!slide);
-
-  // const [scroll, setScroll] = useState(false);
-  // const handleScroll = () => setScroll(!scroll);
 
   const [isLoading, setisLoading] = useState(true);
 
