@@ -4,6 +4,7 @@ import lin from "../../assets/socialMedia/linkedin.png";
 import twitter from "../../assets/socialMedia/twitter.png";
 import youtube from "../../assets/socialMedia/youtube.png";
 import instagram from "../../assets/socialMedia/instagram.png";
+import { ImWhatsapp } from "react-icons/im";
 
 const Footer = () => {
   return (

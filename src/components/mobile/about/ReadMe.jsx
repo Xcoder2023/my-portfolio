@@ -34,7 +34,7 @@ const ReadMe = () => {
           <div className=" text-white hover:bg-[blue] flex justify-center text-center">
             <p>
               Hey!{" "}
-              <span className=" text-yellow-500 font-black">
+              <span className=" text-text-[#1E3A8A] font-black">
                 I'm Mathias,
               </span>{" "}
               Front-end developer in Lagos Nigeria.

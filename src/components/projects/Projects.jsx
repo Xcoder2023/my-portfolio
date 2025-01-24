@@ -2,91 +2,159 @@ import React from "react";
 import { PiGithubLogoLight } from "react-icons/pi";
 import { MdLink } from "react-icons/md";
 
-
 const Projects = () => {
   return (
     <>
-        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
-          <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/michHome.png')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center"></div>
-          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
-            <p className=" text-[20px]"> Mich Homes</p>
-            <p className=" text-[15.67px]">
-              {" "}
-              Mich Homes is a web site that lists different classic homes with a
-              very astonishing houses, appartments and lodges that are available
-              within Awka metropolies for rent.
-            </p>
-            <p className=" flex items-center gap-5">
+      <div id="projects" className="my-20 hidden lg:block">
+        <div className=" flex justify-center mb-10">
+          <p className="legend-txt">Projects</p>
+        </div>
+        <section className="w-[87%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          {/* Mich Homes Card */}
+          <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/michHome.png')]"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">Mich Homes</h3>
+              <p className="text-sm text-center mb-4">
+                Mich Homes is a website that lists different classic homes with
+                astonishing houses, apartments, and lodges available for rent in
+                Awka.
+              </p>
+              <div className="flex items-center gap-4">
                 <a
                   href="https://mich-homes-apartment.vercel.app/"
-                  target="blank"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
                 </a>
-                ||
                 <a
                   href="https://github.com/Xcoder2023/mich-homes-apartment"
-                  target="blank"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
                 </a>
-              </p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
-          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
-            <p className=" text-[20px]"> Yeksgreen-Nig</p>
-            <p className=" text-[11px]">
-              {" "}
-              Yerksgreen-Nig is a comprehensive culinary resource dedicated to teaching how to cook healthy Nigerian recipes. It offers a wide range of tutorials, from traditional meals to delightful desserts and refreshing drinks, all emphasizing nutritious and wholesome ingredients. Whether you're a beginner or an experienced cook, Yerksgreen-Nig provides step-by-step guidance to help you master the art of Nigerian cuisine while prioritizing your health.
-            </p>
-            <p className=" flex items-center gap-5">
+          {/* Yeksgreen-Nig Card */}
+          <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/yerksgreen2.png')]"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">Yeksgreen-Nig</h3>
+              <p className="text-sm text-center mb-4">
+                Yerksgreen-Nig is a culinary resource dedicated to teaching
+                healthy Nigerian recipes with tutorials for beginners and
+                experienced cooks alike.
+              </p>
+              <div className="flex items-center gap-4">
                 <a
                   href="https://github.com/Xcoder2023/Yeksgreen-Nigeria"
-                  target="blank"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
                 </a>
-                ||
                 <a
                   href="https://yeksgreen.vercel.app/"
-                  target="blank"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
                 </a>
-              </p>
+              </div>
+            </div>
           </div>
-          <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/yerksgreen2.png')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center"></div>
-        </div>
 
-        <div className=" w-[700px] flex justify-center bg-[rgb(2,1,24)] p-3 gap-2 overflow-hidden" style={{fontFamily:'poppins'}}>
-          <div className=" flex justify-center items-center  bg-[url('/src/components/assets/project/images.jpeg')] bg-cover w-[50%] bg-no-repeat rounded-xl bg-center">
-              <input type="text" placeholder="Choose a dog breed " readOnly className=" flex p- bg-transparent border-2 placeholder:text-white placeholder:text-center"/>
-          </div>
-          <div className=" flex flex-col w-[50%] justify-center items-center bg-[white] rounded-xl p-1">
-            <p className=" text-[20px]">Infinite Dog App</p>
-            <p className=" text-[15.67px]">
-              {" "}
-              Dog App displays all kinds of dog breed of varying species. It is
-              a recommendable site for who is looking for any breed of dog and
-              its sample. just hit the search bar with the dog breed name and
-              see wonders.
-            </p>
-            <p className=" flex items-center gap-5">
-                <a href="https://infinite-dog-app.vercel.app/" target="blank">
+          {/* Infinite Dog App Card */}
+          <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/images.jpeg')]"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">Infinite Dog App</h3>
+              <p className="text-sm text-center mb-4">
+                The Dog App displays a variety of dog breeds. Search for any
+                breed and explore information about it.
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://infinite-dog-app.vercel.app/"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
+                >
                   <MdLink />
                 </a>
-                ||
                 <a
                   href="https://github.com/Xcoder2023/Infinite-dog-app"
-                  target="blank"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
                 </a>
-              </p>
+              </div>
+            </div>
           </div>
-        </div>
+
+          {/* Slobaj Engineering Project Card */}
+          <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/slobaj-image.png')]"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">
+                Slobaj Engineering Website
+              </h3>
+              <p className="text-sm text-center mb-4">
+                A responsive and user-friendly website showcasing the services
+                and expertise of Slobaj Engineering and Construction (Nig) LTD.
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://slobaj.com.ng/"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <MdLink />
+                </a>
+                <a
+                  href="https://github.com/Xcoder2023/slobajLtd"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <PiGithubLogoLight />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Slobaj Engineering Project Card */}
+          <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/pairlance.png')]"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">Pairlance Website</h3>
+              <p className="text-sm text-center mb-4">
+                A responsive and user-friendly website matching candidate with
+                job recruiter.
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://pairlance-frontend.vercel.app/"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <MdLink />
+                </a>
+                <a
+                  href="https://github.com/Xcoder2023/pairlance-frontend  "
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <PiGithubLogoLight />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </>
   );
 };
