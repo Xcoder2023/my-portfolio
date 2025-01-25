@@ -9,7 +9,7 @@ import { ImWhatsapp } from "react-icons/im";
 const Footer = () => {
   return (
     <>
-      <div className=" flex flex-col items-center bg-[black] text-[white] p-3" style={{fontFamily:'poppins'}}>
+      <div className=" flex flex-col items-center bg-[black] text-[white] p-3 " style={{fontFamily:'poppins'}}>
         <div className=" flex flex-col  items-center gap-2">
           <div className=" flex justify-between gap-20 items-center">
             <div className=" flex justify-center font-serif">

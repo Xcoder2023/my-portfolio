@@ -14,11 +14,11 @@ const Skill = () => {
   },[]);
   return (
     <>
-      <div className=' flex flex-col p-5 mb-10 overflow-hidden' style={{fontFamily:'poppins'}}>
-        <div className=' text-[20px] text-center'><p> Skills</p></div>
-          <fieldset className=" border-4 pb-5 pt-5 p-5">
-            <legend className=" flex text-center font-extrabold text-[50px] font-serif social"><span className="legend-txt">My Web Tools</span></legend>
-            <div className=" grid grid-cols-2 gap-5 items-center ">
+      <div className='w-[93%] mx-auto flex flex-col p-5 mb-10 overflow-hidden' style={{fontFamily:'poppins'}}>
+        
+          <fieldset className=" border border-[#1E3A8A] rounded-lg">
+            <legend className=" flex text-center  text-[50px] font-serif social"><span className="legend-txt">My Web Tools</span></legend>
+            <div className=" grid grid-cols-2 items-center py-5 gap-5 ">
 
               <div data-aos='fade-left' className=" flex items-center justify-center overflow-hidden">
                 <img src={htmld} alt="" className="  w-32" />

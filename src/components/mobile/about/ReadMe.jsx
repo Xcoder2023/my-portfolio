@@ -25,26 +25,26 @@ const ReadMe = () => {
           data-aos="fade-up"
           className=" flex justify-center text-[20px] overflow-hidden"
         >
-          <p>About</p>
+          <p className="legend-txt my-10">About</p>
         </div>
         <div
           data-aos="fade-left"
-          className=" flex flex-col items-center justify-center gap-5 bg-[black] text-[white p-5 border-2 overflow-hidden"
+          className=" flex flex-col items-center justify-center gap-5 p-5  overflow-hidden w-[89%] mx-auto"
         >
-          <div className=" text-white hover:bg-[blue] flex justify-center text-center">
+          <div className="  hover:bg-[blue] flex justify-center">
             <p>
               Hey!{" "}
-              <span className=" text-text-[#1E3A8A] font-black">
+              <span className=" text-[#1E3A8A] font-black">
                 I'm Mathias,
               </span>{" "}
-              Front-end developer in Lagos Nigeria.
+               A passionate front-end developer dedicated to creating elegant user interfaces and seamless web experiences. I specialize in solving design challenges, crafting modern web applications, and delivering impactful interactions that enhance usability and functionality.
             </p>
           </div>
           <div className=" ">
             <img src={mathy} alt="" className=" rounded-full w-32" />
           </div>
           <div className=" flex">
-            <div className=" flex justify-center text-start text-[white]">
+            <div className=" flex justify-center text-start">
               <p>
                 {" "}
                 Specialized in web development, user interface design, HTML and reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
@@ -53,7 +53,7 @@ const ReadMe = () => {
                 <span onClick={handleRead}>
                   {" "}
                   {visible && (
-                    <div className=" text-yellow-500">Read more...</div>
+                    <div className=" text-[#1E3A8A]">Read more...</div>
                   )}
                 </span>
                 {read && (

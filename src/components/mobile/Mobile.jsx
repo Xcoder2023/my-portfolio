@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { TypeAnimation } from "react-type-animation";
 import { MdOutlineFileDownload } from "react-icons/md";
-import CV from "../assets/documents/mathy.pdf";
+import CV from "../assets/documents/MATHIASEDE.pdf";
 
 const Mobile = () => {
   useEffect(() => {
@@ -37,7 +37,7 @@ const Mobile = () => {
             I build smart user interface with usefull interactions, resolves
             design problem, develops classic web applications and seamless web
             experiences.
-            <button className=" text-yellow-500 underline hover:text-green-600 cursor-pointer flex items-center">
+            <button className=" text-green-600 underline  cursor-pointer flex items-center">
               <a href={CV} target="" download="MATHIAS-CV.pdf">
                 CV
               </a>

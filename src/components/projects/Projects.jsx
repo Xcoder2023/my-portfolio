@@ -5,14 +5,17 @@ import { MdLink } from "react-icons/md";
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="my-20 hidden lg:block">
+      <div className="my-20 block">
         <div className=" flex justify-center mb-10">
           <p className="legend-txt">Projects</p>
         </div>
         <section className="w-[87%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Mich Homes Card */}
           <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
-            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/michHome.png')]"></div>
+            <div
+              data-aos="zoom-out"
+              className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/michHome.png')]"
+            ></div>
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
               <h3 className="text-2xl font-semibold mb-3">Mich Homes</h3>
               <p className="text-sm text-center mb-4">
@@ -70,7 +73,10 @@ const Projects = () => {
 
           {/* Infinite Dog App Card */}
           <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
-            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/images.jpeg')]"></div>
+            <div
+              data-aos="zoom-out"
+              className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/images.jpeg')]"
+            ></div>
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
               <h3 className="text-2xl font-semibold mb-3">Infinite Dog App</h3>
               <p className="text-sm text-center mb-4">
@@ -128,7 +134,10 @@ const Projects = () => {
 
           {/* Slobaj Engineering Project Card */}
           <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
-            <div className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/pairlance.png')]"></div>
+            <div
+              data-aos="zoom-out"
+              className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/pairlance.png')]"
+            ></div>
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
               <h3 className="text-2xl font-semibold mb-3">Pairlance Website</h3>
               <p className="text-sm text-center mb-4">
@@ -150,6 +159,35 @@ const Projects = () => {
                 >
                   <PiGithubLogoLight />
                 </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div
+              data-aos="zoom-out"
+              className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/delvefun.png')]"
+            ></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">Delve Fun</h3>
+              <p className="text-sm text-center mb-4">
+                Delve Fun is an AI-powered language learning app that helps
+                users improve their skills through interactive and engaging
+                methods. I contributed to its development by implementing
+                responsive designs, animations, and functional components to
+                ensure a smooth and user-friendly experience.
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://delve.fun/"
+                  target="_blank"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <MdLink />
+                </a>
+                <span className="text-sm italic">
+                  (Code is private; I worked as a collaborator.)
+                </span>
               </div>
             </div>
           </div>

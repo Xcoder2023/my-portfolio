@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { TypeAnimation } from "react-type-animation";
 import mathy from "../assets/about/mathy.jpg";
-import CV from "../assets/documents/mathy.pdf";
+import CV from "../assets/documents/MATHIASEDE.pdf";
 import Modal from "../contact/Modal";
 
 const ProfileSection = () => {

@@ -24,7 +24,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50">
+    <nav className="sticky top-0 z-50 hidden lg:block">
       <div className="flex items-center justify-between h-[90px] px-5 md:px-20 bg-white shadow-sm sticky top-0 z-50">
         <div className="flex items-center space-x-2 text-[#374151]" style={{ fontFamily: "Georgia" }}>
           <a href="/" className="flex items-center">

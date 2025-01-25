@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-     <div id="about" className="hidden lg:block">
+     <div className="hidden lg:block">
      <div
         
         className="flex items-center mx-auto w-[91%]"

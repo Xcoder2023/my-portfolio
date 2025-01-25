@@ -12,7 +12,7 @@ const Project = () => {
   }, []);
   return (
     <>
-      <div>
+      <div className="hidden">
         <div className=" flex flex-col justify-center items-center gap-2 p-5 overflow-hidden" style={{fontFamily:'poppins'}}>
           <div
             data-aos="fade-down"

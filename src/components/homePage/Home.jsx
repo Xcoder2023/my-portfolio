@@ -34,18 +34,18 @@ const Home = () => {
           <div className="lg:hidden block">
             <Center />
           </div>
-          <div>
+          <div id="about">
             <About />
           </div>
         </>
       )}
-      <div>
+      <div id="skills" className="hidden lg:block">
         <WebTools />
       </div>
       <div>
         <Skillpage />
       </div>
-      <div>
+      <div id="projects" className="hidden lg:block">
         <Projects />
       </div>
       <Footer />

@@ -33,9 +33,9 @@ const Contacts = () => {
   }, []);
   return (
     <>
-      <div className=" " style={{ fontFamily: "poppins" }}>
+      <div className="w-[93%] mx-auto " style={{ fontFamily: "poppins" }}>
         <div className=" flex justify-center text-2xl text-[20px]">
-          <p>Contact Me</p>
+          <p className="legend-txt">Contact Me</p>
         </div>
         <div
           data-aos="fade-down"

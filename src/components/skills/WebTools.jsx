@@ -2,12 +2,12 @@ import React from 'react';
 
 const WebToolS = () => {
   return (
-    <section id='skills' className="skills-section w-[87%] mx-auto hidden lg:block py-8">
+    <section  className="skills-section w-[87%] mx-auto block py-8">
       <h2 className="text-2xl font-bold text-center mb-8 social legend-txt">Skills</h2>
 
-      <div className="grid grid-cols-2 gap-6">
+      <div  className="grid lg:grid-cols-2 gap-6" style={{fontFamily:'poppins'}}>
         {/* Technical Skills */}
-        <div className="bg-white border border-[#1E3A8A] p-6 shadow-md rounded-md">
+        <div data-aos="fade-up" className="bg-white border border-[#1E3A8A] p-6 shadow-md rounded-md">
           <h3 className="text-xl text-center font-semibold mb-4 legend-txt">Technical Skills</h3>
           <ul className="list-disc list-inside space-y-2">
             <li>
@@ -29,7 +29,7 @@ const WebToolS = () => {
         </div>
 
         {/* Soft Skills */}
-        <div className="bg-white p-6 border border-[#1E3A8A] shadow-md rounded-md">
+        <div data-aos="fade-down" className="bg-white p-6 border border-[#1E3A8A] shadow-md rounded-md">
           <h3 className="text-xl text-center font-semibold mb-4 legend-txt">Soft Skills</h3>
           <ul className="list-disc list-inside space-y-2">
             <li>

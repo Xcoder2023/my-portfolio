@@ -49,7 +49,7 @@ const Modal = ({ showModal, closeModal }) => {
               style={{ fontFamily: "Poppins" }}
             >
               <div className="flex justify-center font-black text-xl tracking-widest text-[#1d3344]">
-                <p>Contact Me</p>
+                <p className="legend-txt">Contact Me</p>
               </div>
               <div className="flex flex-col gap-1">
                 <label htmlFor="first-name">First Name:</label>
