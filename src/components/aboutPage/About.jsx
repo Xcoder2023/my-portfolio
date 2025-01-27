@@ -11,7 +11,7 @@ const About = () => {
       >
         <div className="flex flex-col items-center justify-center gap-5 p-5">
           <div className="flex items-start gap-8">
-            <div className="text-start w-[40rem] leading-7">
+            <div  className="text-start w-[40rem] leading-7">
               <p>
                 I specialize in web development, designing intuitive user
                 interfaces, and building dynamic, responsive applications. My

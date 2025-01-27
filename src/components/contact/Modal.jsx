@@ -45,7 +45,7 @@ const Modal = ({ showModal, closeModal }) => {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-col space-y-5 border border-[#1d3344] bg-white p-5 rounded-[3px]"
+              className="flex flex-col space-y-5 borde border-[#1d3344 bg-white p-5 rounded-[3px]"
               style={{ fontFamily: "Poppins" }}
             >
               <div className="flex justify-center font-black text-xl tracking-widest text-[#1d3344]">

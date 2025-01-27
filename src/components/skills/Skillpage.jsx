@@ -10,7 +10,7 @@ const Skillpage = () => {
     <>
        <div className="hidden lg:block">
        <div className=" flex flex-col gap-10 w-[87%] mx-auto rounded-md my-10  ">
-          <fieldset className="border border-[#1d3344] pb-5 pt-5">
+          <fieldset className="border border-[#1E3A8A] rounded-lg pb-5 pt-5">
             <legend className=" flex text-center font-extrabold font-serif social"><span className="legend-txt">My Web Tools</span></legend>
             <div className=" grid grid-cols-3 gap-5 items-center ">
 
