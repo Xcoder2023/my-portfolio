@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { TypeAnimation } from "react-type-animation";
 import mathy from "../assets/about/mathy.jpg";
-import CV from "../assets/documents/MATHIASEDE.pdf";
+import CV from "../assets/documents/MATHIASCHIKA.pdf";
 import Modal from "../contact/Modal";
 
 const ProfileSection = () => {
@@ -28,9 +28,9 @@ const ProfileSection = () => {
             <section className="w-[200px] flex justify-center">
               <div>
                 <img
-                  src={mathy}
+                  src="/profile2.jpeg"
                   alt="Mathias"
-                  className="rounded-full w-32"
+                  className="rounded-[10px] w-[500px] h-[200px] "
                   style={{ position: "relative", objectFit: "cover" }}
                 />
               </div>

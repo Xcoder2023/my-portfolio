@@ -41,15 +41,13 @@ const ReadMe = () => {
             </p>
           </div>
           <div className=" ">
-            <img src={mathy} alt="" className=" rounded-full w-32" />
+            <img src='/profile.jpeg' alt="" className=" rounded-[10px] w-full" />
           </div>
           <div className=" flex">
             <div className=" flex justify-center text-start">
               <p>
                 {" "}
-                Specialized in web development, user interface design, HTML and reactJS adept at identifying opportunities to enhance front-end-design, improve the user experience contributing to
-                a highly collaborative work environment, finding solutions and
-                determining customer satisfaction.
+                Front-end developer skilled in HTML, CSS, JavaScript, React, TypeScript, Next.js, and Remix. Adept at identifying opportunities to enhance UI/UX design and improve user experience. Strong collaborator with a focus on finding effective solutions and ensuring customer satisfaction in dynamic, team-oriented environments.
                 <span onClick={handleRead}>
                   {" "}
                   {visible && (
@@ -58,17 +56,8 @@ const ReadMe = () => {
                 </span>
                 {read && (
                   <span className="">
-                    I builds exceptional user freindly website of different
-                    purpose ranging from E-commernce, School/Church, NGO{" "}
-                    <span className="">et al</span> websites I'm a young dynamic
-                    and highly motivated person, striving to live a professional
-                    life in a performance driven environment where I can face
-                    new challenges and exceed all expectations base on
-                    improvement built on competence without compromising
-                    integrity and with ability to work with little or no
-                    supervision to achieve organizational goals or objectives
-                    and hope to bring the drive, dedication and cooperation to
-                    make significant contribution to the society. <br />{" "}
+                    I build exceptional, user-friendly websites for various purposes, including e-commerce, educational institutions, churches, and non-governmental organizations (NGOs).
+                     As a young, dynamic, and highly motivated developer, I am passionate about delivering excellence in a performance-driven environment. I thrive on new challenges and continuously seek improvement built on competence, innovation, and integrity. With the ability to work effectively both independently and collaboratively, I am dedicated to achieving organizational goals while contributing positively to society through creativity, commitment, and teamwork <br />
                     <span className=" text-yellow-500" onClick={toggle}>
                       See less...
                     </span>{" "}

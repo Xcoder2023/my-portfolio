@@ -22,7 +22,7 @@ const Modal = ({ showModal, closeModal }) => {
           message.success("Submitted successfully");
           form.current.reset();
           setLoading(false);
-          closeModal(); // Hide the modal after successful submission
+          closeModal(); 
         },
         (error) => {
           message.error("Network error, try again");

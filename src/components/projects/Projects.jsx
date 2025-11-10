@@ -115,7 +115,7 @@ const Projects = () => {
               </p>
               <div className="flex items-center gap-4">
                 <a
-                  href="https://slobaj.com.ng/"
+                  href="https://slobaj-ltd.vercel.app/"
                   target="_blank"
                   className="text-xl hover:text-blue-400"
                 >

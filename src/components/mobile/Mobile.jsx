@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { TypeAnimation } from "react-type-animation";
 import { MdOutlineFileDownload } from "react-icons/md";
-import CV from "../assets/documents/MATHIASEDE.pdf";
+import CV from "../assets/documents/MATHIASCHIKA.pdf";
 
 const Mobile = () => {
   useEffect(() => {
