@@ -63,8 +63,7 @@ const ProfileSection = () => {
               functionality.
             </p>
             <button className="text-[#1E3A8A] underline hover:text-green-500 flex items-center">
-                  rel="noopener noreferrer"
-              <a href={CV} target="_blank"  rel="noopener noreferrer" download="mathias-cv.pdf">
+              <a href={CV} target="_blank" download="mathias-cv.pdf" rel="noopener noreferrer">
                 Download CV
               </a>
               <MdOutlineFileDownload />
