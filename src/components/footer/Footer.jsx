@@ -63,9 +63,16 @@ const Footer = () => {
           <h2 className="text-[18px] leading-[21.6px] font-semibold">
             Contact
           </h2>
-          <p className="text-[16px] leading-[19.2px] font-normal mt-2 text-[#FFFFFF]">
+          {/* <p className="text-[16px] leading-[19.2px] font-normal mt-2 text-[#FFFFFF]">
             xcoder2023@gmail.com
-          </p>
+          </p> */}
+          <a
+  href="mailto:xcoder2023@gmail.com"
+  className="text-[16px] leading-[19.2px] font-normal mt-2 text-[#FFFFFF] hover:underline"
+>
+  xcoder2023@gmail.com
+</a>
+
         </div>
 
         <div className="mt-8 md:mt-0">
