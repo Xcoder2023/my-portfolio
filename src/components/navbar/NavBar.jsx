@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);

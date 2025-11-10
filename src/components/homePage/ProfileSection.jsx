@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { TypeAnimation } from "react-type-animation";
-import mathy from "../assets/about/mathy.jpg";
+// import mathy from "../assets/about/mathy.jpg";
 import CV from "../assets/documents/MATHIASCHIKA.pdf";
 import Modal from "../contact/Modal";
 
@@ -63,7 +63,8 @@ const ProfileSection = () => {
               functionality.
             </p>
             <button className="text-[#1E3A8A] underline hover:text-green-500 flex items-center">
-              <a href={CV} target="_blank" download="mathias-cv.pdf">
+                  rel="noopener noreferrer"
+              <a href={CV} target="_blank"  rel="noopener noreferrer" download="mathias-cv.pdf">
                 Download CV
               </a>
               <MdOutlineFileDownload />

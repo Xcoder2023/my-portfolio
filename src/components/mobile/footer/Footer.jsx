@@ -4,7 +4,7 @@ import lin from "../../assets/socialMedia/linkedin.png";
 import twitter from "../../assets/socialMedia/twitter.png";
 import youtube from "../../assets/socialMedia/youtube.png";
 import instagram from "../../assets/socialMedia/instagram.png";
-import { ImWhatsapp } from "react-icons/im";
+// import { ImWhatsapp } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -29,7 +29,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://youtube.com/@edemathiaschikaodili5490?si=UJHzJoGkr4Qo-7NM">
                     <img
                       src={youtube}
                       alt="u-tube logo"
@@ -38,7 +38,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/edemathiasdev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                     <img
                       src={lin}
                       alt="linkedin logo"
@@ -47,7 +47,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://youtube.com/@edemathiaschikaodili5490?si=UJHzJoGkr4Qo-7NM">
                     <img
                       src={instagram}
                       alt="instagram logo"

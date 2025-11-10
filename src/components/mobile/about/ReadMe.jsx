@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import mathy from "../../assets/about/mathy.jpg";
+// import mathy from "../../assets/about/mathy.jpg";
 
 const ReadMe = () => {
   const [read, setRead] = useState(false);

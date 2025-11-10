@@ -27,6 +27,7 @@ const Projects = () => {
                 <a
                   href="https://mich-homes-apartment.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
@@ -34,6 +35,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/Xcoder2023/mich-homes-apartment"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
@@ -56,6 +58,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/Xcoder2023/Yeksgreen-Nigeria"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
@@ -63,6 +66,7 @@ const Projects = () => {
                 <a
                   href="https://yeksgreen.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
@@ -87,6 +91,7 @@ const Projects = () => {
                 <a
                   href="https://infinite-dog-app.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
@@ -94,6 +99,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/Xcoder2023/Infinite-dog-app"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
@@ -117,6 +123,7 @@ const Projects = () => {
                 <a
                   href="https://slobaj-ltd.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
@@ -124,6 +131,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/Xcoder2023/slobajLtd"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
@@ -148,6 +156,7 @@ const Projects = () => {
                 <a
                   href="https://pairlance-frontend.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
@@ -155,6 +164,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/Xcoder2023/pairlance-frontend  "
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <PiGithubLogoLight />
@@ -181,6 +191,7 @@ const Projects = () => {
                 <a
                   href="https://delve.fun/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl hover:text-blue-400"
                 >
                   <MdLink />
