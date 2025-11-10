@@ -202,6 +202,103 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div
+              data-aos="zoom-out"
+              className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/serenehealth.png')]"
+            ></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">
+                Serene Scheal Initiative Website
+              </h3>
+              <p className="text-sm text-center mb-4">
+                Built a responsive, accessible website showcasing the Serene
+                Scheal Initiative’s programs and mission.
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://sereneschealdev.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <MdLink />
+                </a>
+                <a
+                  href="https://github.com/Xcoder2023/web_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <PiGithubLogoLight />
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+           <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div
+              data-aos="zoom-out"
+              className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/mamaket.png')]"
+            ></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">
+               Mamaket African Marketplace
+              </h3>
+              <p className="text-sm text-center mb-4">
+                Developed a responsive landing page for an African marketplace celebrating culture. Focused on clean design, intuitive navigation, and mobile-friendly performance to engage users and showcase products effectively.
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://mamaket-landing-page.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <MdLink />
+                </a>
+                <a
+                  href="https://github.com/Xcoder2023/mamaket-landing-page"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <PiGithubLogoLight />
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+              <div className="relative bg-black rounded-xl overflow-hidden group h-auto w-full">
+            <div
+              data-aos="zoom-out"
+              className="w-full h-[250px] bg-cover bg-center bg-[url('/src/components/assets/project/limtech.png')]"
+            ></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-100 transition-all">
+              <h3 className="text-2xl font-semibold mb-3">SimbiTech</h3>
+              <p className="text-sm text-center mb-4">
+              Developed a full, responsive website for SimbiTech, a platform empowering girls to learn, build, and lead in tech. Built with a focus on accessibility, seamless navigation, and mobile optimization to showcase programs, inspire engagement, and support user interaction across the site.
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://simbitech-webapp.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl hover:text-blue-400"
+                >
+                  <MdLink />
+                </a>
+                <span className="text-sm italic">
+                  (Code is private; I worked as a collaborator.)
+                </span>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </>
